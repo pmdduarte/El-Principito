@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+ }
+
+ *¨{
+     border: 0;
+     padding: 0;
+ }
+ 
+ body {
+    background-image: url(img/uS8WTY.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+ }
+ 
+    p { display:flex
+  
+    }
+    
+    .imagen { flex-grow: 1;
+        align-items: center;
+        
+    }

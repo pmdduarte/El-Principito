@@ -1,0 +1,70 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+ }
+
+ *¨{
+     border: 0;
+     padding: 0;
+ }
+ 
+ body {
+    background-image: url(img/El_principito_MILIMA20151112_0321_30.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+            
+  }
+@font-face {
+  font-family: Pacific-webfont;
+    src: url(font/pacifico-webfont.woff2);
+} 
+
+@font-face {
+  font-family: Comic-Sans;
+    src: url(font/Comic\ Sans\ MS.woff2);
+}
+
+h1 {
+  font-size: 72px;
+      font-family: "Pacific-webfont";
+      font-style: italic;
+      color: rgb(20, 24, 236);
+      text-align: center;
+}
+
+nav {
+  background-color: rgb(51, 221, 243);
+    font-size: 32px;
+}
+
+ul {
+  list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+    color: rgb(180, 16, 180);
+    padding: 15px; 
+}
+
+.preambulo {
+  font-size: 24px;
+    font-family: 'Comic-Sans';
+    text-align: center;
+
+}
+
+.cita {
+  font-size: 24px;
+    font-family: 'Comic-Sans';
+    text-align: left;
+
+}
