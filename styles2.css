@@ -12,7 +12,7 @@ html {
      border: 0;
      padding: 0;
  }
- 
+
  body {
     background-image: url(img/El_principito_MILIMA20151112_0321_30.jpg);
     background-repeat: no-repeat;
@@ -20,6 +20,9 @@ html {
     background-size: cover;
             
   }
+
+
+
 @font-face {
   font-family: Pacific-webfont;
     src: url(font/pacifico-webfont.woff2);
@@ -67,4 +70,27 @@ a {
     font-family: 'Comic-Sans';
     text-align: left;
 
+}
+
+@media (orientation: portrait) {
+    
+  body {
+    background: url("Img/mobile.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  h1 {
+      color: yellow;
+  }
+    
+  .preambulo {
+    color: rgb(245, 151, 151)
+  }
+
+  .cita {
+    color: rgb(245, 151, 151)
+  }
+  
 }
