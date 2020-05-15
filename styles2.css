@@ -67,8 +67,10 @@ a {
 
 .cita {
   font-size: 24px;
-    font-family: 'Comic-Sans';
-    text-align: left;
+  font-family: 'Comic-Sans';
+  text-align: left;
+  margin: 20px;
+  background-color: blanchedalmond;
 
 }
 
@@ -88,6 +90,15 @@ a {
   .preambulo {
     color: rgb(245, 151, 151)
   }
+
+  .libro {
+    display: flex;
+  }
+
+ iframe {
+    align-items: center;
+ }
+
 
   .cita {
     color: rgb(245, 151, 151)
